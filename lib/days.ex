@@ -107,5 +107,15 @@ defmodule Aoc2023.Days do
 
     Aoc2023.Day11Part2.run()
     |> IO.puts()
+
+    IO.puts("day 12 part 1")
+    IO.puts("brute force method - slow!")
+
+    Aoc2023.Day12Part1.run()
+    |> IO.puts()
+
+    # IO.puts("day 12 part 2")
+    # Aoc2023.Day12Part2.run()
+    # |> IO.puts()
   end
 end

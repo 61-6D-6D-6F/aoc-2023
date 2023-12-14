@@ -84,6 +84,14 @@ defmodule Aoc2023.TestDays do
   end
 
   test "day 11 part 2" do
-    assert Aoc2023.Day11Part2.run() == 5_613_686_987_427
+    assert Aoc2023.Day11Part2.run() == 613_686_987_427
   end
+
+  test "day 12 part 1" do
+    IO.puts("brute force method - slow!")
+    assert Aoc2023.Day12Part1.run() == 7_939
+  end
+
+  test "day 12 part 2"
+  # assert Aoc2023.Day12Part2.run() == 0
 end

@@ -3,7 +3,9 @@ This repository was created to document my journey solving **[Adcent Of Code 202
 
 ## Description
 Advent of Code is an Advent calendar of small programming puzzles. For more information  please visit [here](https://adventofcode.com/).
-**[Elixir](https://elixir-lang.org/)** is a dynamic, functional programming language running on the **[BEAM](https://www.erlang.org/blog/a-brief-beam-primer/)** (Bogdan Erlang Abstract Machine), also known as Erlang VM, known for creating low-latency, distributed, and fault-tolerant systems.
+
+[Elixir](https://elixir-lang.org/) is a dynamic, functional programming language running on the [BEAM](https://www.erlang.org/blog/a-brief-beam-primer/) (Bogdan Erlang Abstract Machine), also known as Erlang VM, known for creating low-latency, distributed, and fault-tolerant systems.
+
 My goal is to explore the language, its abstractions and ways of transformations.
 
 ## Getting Started

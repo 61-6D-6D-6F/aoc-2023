@@ -135,5 +135,15 @@ defmodule Aoc2023.Days do
     # IO.puts("day 14 part 2")
     # Aoc2023.Day14Part2.run()
     # |> IO.puts()
+
+    IO.puts("day 15 part 1")
+
+    Aoc2023.Day15Part1.run()
+    |> IO.puts()
+
+    IO.puts("day 15 part 2")
+
+    Aoc2023.Day15Part2.run()
+    |> IO.puts()
   end
 end

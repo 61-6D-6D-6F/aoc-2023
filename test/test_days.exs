@@ -131,4 +131,11 @@ defmodule Aoc2023.TestDays do
 
   test "day 17 part 2"
   # assert Aoc2023.Day17Part2.run() == 0
+
+  test "day 18 part 1" do
+    assert Aoc2023.Day18Part1.run() = 38_188
+  end
+
+  test "day 18 part 2"
+  # assert Aoc2023.Day18Part2.run() == 0
 end

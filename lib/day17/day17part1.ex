@@ -1,6 +1,5 @@
 defmodule Aoc2023.Day17Part1 do
   def run() do
-    # File.read!("lib/day17/test.txt")
     File.read!("lib/day17/input17.txt")
     |> processInput()
     |> calculateResult()
@@ -32,7 +31,6 @@ defmodule Aoc2023.Day17Part1 do
 
   defp step(map, size, pQueue, visited) do
     {{heatLoss, y, x, dY, dX, count}, restPQueue} = minFromPQueue(pQueue)
-    IO.inspect(heatLoss)
 
     if x == size - 1 and y == size - 1 do
       heatLoss
